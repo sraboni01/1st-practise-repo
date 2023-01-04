@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    font-family:sans-serif;
+}
+.header-container{
+   margin: 50px 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+.header-details{
+    text-align: center;
+    
+}
