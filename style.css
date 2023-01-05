@@ -3,14 +3,19 @@
     font-family:sans-serif;
 }
 .header-container{
-   margin: 50px 150px;
+    background-image: url(../images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
 }
 nav{
     display: flex;
     justify-content: space-between;
+    padding: 50px 150px;
 }
 .logo{
     font-size: 30px;
+    color: #fff;
 }
 nav ul{
     display: flex;
@@ -19,8 +24,20 @@ nav ul{
 nav ul li{
     list-style-type: none;
     margin-left: 50px;
+    color: #fff;
 }
 .header-details{
-    text-align: center;
+   text-align: center;
+  padding: 110px 220px;
+  align-items: center;
     
+}
+.header-details h2{
+    font-size: 68px;
+    font-weight: bold;
+    color: #fff;
+}
+.header-details p{
+    font-size: 18px;
+    color: #fff;
 }
