@@ -3,7 +3,7 @@
     font-family:sans-serif;
 }
 .header-container{
-    background-image: url(../images/donation1.jpg);
+    background-image: url('images/donation1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   
