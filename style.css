@@ -118,3 +118,6 @@ nav ul li{
 .donate-plan-sec .plan-three{
     background-color: rgb(89, 203, 248);
 }
+.plan img, h3,p{
+    padding: 10px;
+}
