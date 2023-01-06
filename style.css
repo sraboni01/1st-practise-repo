@@ -53,9 +53,48 @@ nav ul li{
     margin: 10px;
 }
 
-.donaite-amount ul{
-    display: flex;
+.donate-container{
+    text-align: center;
+    margin: 50px 150px;
 }
-.donate-section{
-   
+.donate-amount ul{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.donate-amount ul li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 30px 20px;
+    color: grey;
+    font-weight: bold;
+    font-size: 26px;
+    /* box-shadow: 0px 0px 30px #cbcbcb; */
+    background-color: rgba(211, 211, 211, 0.30);
+}
+.donate-des h2{
+    font-size: 45px;
+    margin: 20px 0px;
+}
+.donate-des p{
+    font-size: 16px;
+    margin: 20px 150px;
+}
+.input-amount p{
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    /* 
+    border-bottom: 1px solid grey ;
+    width: 45%;
+    text-align: center;
+    padding: 10px 20px; */
+    margin: 0px 300px;
+    color: grey;
+}
+.donate-amount .single-price .price-highlight{
+    color: orange;
+    border: 2px solid orange;
+    background-color: rgba(255, 166, 0, 0.301);
+    
 }
