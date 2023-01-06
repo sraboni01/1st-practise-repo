@@ -55,7 +55,7 @@ nav ul li{
     text-align: center;
     margin: 50px 150px;
 }
-.donate-section{
+main{
     padding: 40px 0px;
 }
 .donate-amount ul{
@@ -120,4 +120,21 @@ nav ul li{
 }
 .plan img, h3,p{
     padding: 10px;
+}
+.middle-section .middle{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.middle-section .middle img{
+    height: 500px;
+    width: 600px;
+   
+}
+.side-details, .side-img{
+    padding: 20px;
+}
+.side-details h3{
+    font-size: 48px;
 }
