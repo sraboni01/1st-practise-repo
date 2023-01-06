@@ -3,9 +3,9 @@
     font-family:sans-serif;
 }
 .header-container{
-    background-image: url('images/donation1.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('images/donation0.jpg');
+    background-size:cover;
     background-repeat: no-repeat;
-    background-size: cover;
   
 }
 nav{
