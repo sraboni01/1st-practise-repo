@@ -3,6 +3,7 @@
     font-family:sans-serif;
 }
 .header-container{
+    
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('images/donation0.jpg');
     background-size:cover;
     background-repeat: no-repeat;
@@ -38,6 +39,12 @@ nav ul li{
     color: #fff;
 }
 .header-details p{
+    font-size: 18px;
+    color: #fff;
+}
+.des-button{
+    padding: 15px 20px;
+    background-color: orange;
     font-size: 18px;
     color: #fff;
 }
