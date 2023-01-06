@@ -32,8 +32,6 @@ nav ul li{
   padding: 110px 250px;
   align-items: center;
   margin: 60px 0px;
-
-    
 }
 .header-details h2{
     font-size: 68px;
@@ -56,6 +54,9 @@ nav ul li{
 .donate-container{
     text-align: center;
     margin: 50px 150px;
+}
+.donate-section{
+    padding: 40px 0px;
 }
 .donate-amount ul{
     display: flex;
@@ -83,13 +84,13 @@ nav ul li{
 }
 .input-amount p{
     border-bottom: 1px solid grey;
-    padding: 10px;
+    padding: 10px 0px;
     /* 
     border-bottom: 1px solid grey ;
     width: 45%;
     text-align: center;
     padding: 10px 20px; */
-    margin: 0px 300px;
+    margin: 10px 300px;
     color: grey;
 }
 .donate-amount .single-price .price-highlight{
@@ -97,4 +98,23 @@ nav ul li{
     border: 2px solid orange;
     background-color: rgba(255, 166, 0, 0.301);
     
+}
+
+/* donate plan */
+.donate-plan-sec{
+    display: flex;
+    text-align: left;
+}
+.donate-plan-sec .plan{
+    margin:20px;
+    padding: 30px;
+}
+.donate-plan-sec .plan-one{
+    background-color: burlywood;
+}
+.donate-plan-sec .plan-two{
+    background-color: rgb(240, 243, 36);
+}
+.donate-plan-sec .plan-three{
+    background-color: rgb(89, 203, 248);
 }
